@@ -1,7 +1,5 @@
 # shackle-pop
 
-WIP warning: This plugin may have some bugs.
-
 Make shackle.el behave more like popwin.el.
 
 ## Installation
