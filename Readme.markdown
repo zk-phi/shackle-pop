@@ -1,6 +1,6 @@
 # shackle-pop
 
-Make shackle.el behave more like popwin.el.
+Make shackle.el popups behave more like popwin.el.
 
 ## Installation
 
