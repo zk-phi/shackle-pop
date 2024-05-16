@@ -30,6 +30,8 @@ All these features are enabled by default. If you want to disable some of them, 
   When a window is popped up by shackle, the window is automatically aligned even if the rule does
   not contain `:align t`.
 
+  You may override this behavior on a per-rule basis by adding `:align nil` to some rules.
+
   This feature exists just to clean-up `shackle-rule`.
 
   You may also want to set `shackle-default-alignment` and `shackle-default-size`.
