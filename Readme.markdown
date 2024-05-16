@@ -30,9 +30,9 @@ All these features are enabled by default. If you want to disable some of them, 
 
   You may override this behavior on a per-rule basis by adding `:align nil` to some rules.
 
-  This feature exists just to clean-up `shackle-rule`.
+  This feature exists just to clean-up `shackle-rules`.
 
-  You may also want to set `shackle-default-alignment` and `shackle-default-size`.
+  You may also want to set `shackle-default-alignment` and `shackle-default-size` together.
 
 ## Sample configuration
 
