@@ -34,6 +34,12 @@ All these features are enabled by default. If you want to disable some of them, 
 
   You may also want to set `shackle-default-alignment` and `shackle-default-size` together.
 
+## Functions
+
+- `shackle-pop-popup-buffer`
+
+  Popup a buffer with shackle. This can be a drop-in replacement for `popwin:popup-buffer`.
+
 ## Sample configuration
 
 ``` emacs-lisp
