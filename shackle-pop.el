@@ -55,9 +55,8 @@ specified in the rule.")
           (t
            (let* ((plist (nconc plist `(:align ,shackle-pop-auto-align)))
                   (wnd (funcall fn buffer alist plist)))
-             (when popup-p
-               (push wnd shackle-pop--windows))
-             (when shackle-pop-auto-close
+             (when (and popup-p shackle-pop-auto-close)
+               (push wnd shackle-pop--windows)
                (shackle-pop--maybe-start-timer))
              wnd)))))
 
